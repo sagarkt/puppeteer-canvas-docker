@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer-canvas-docker",
+  "version": "1.0.0",
+  "description": "Puppeteer to Render Canvas Inside Docker",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "puppet-canvas": "^0.1.0",
+    "puppeteer": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagarkt/puppeteer-canvas-docker.git"
+  },
+  "author": "Sagar Kamble"
+}
