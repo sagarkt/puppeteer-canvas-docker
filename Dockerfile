@@ -26,6 +26,8 @@ RUN addgroup -S pptruser && adduser -S -G pptruser pptruser \
 # Run everything after as non-privileged user.
 USER pptruser
 
+EXPOSE 3000
+
 WORKDIR /app
 # COPY index.js ./
 # VOLUME . /app
